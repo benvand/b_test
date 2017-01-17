@@ -8,9 +8,9 @@ version='1.0.0'
 
 
 setup(
-    name='test_b',
+    name='b_test',
     version='1.0.0',
-    url='https://github.com/benvand/test_b',
+    url='https://github.com/benvand/b_test',
     license='MIT',
     author='benvand',
     description='B',
