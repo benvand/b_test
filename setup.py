@@ -13,7 +13,8 @@ requirements = list(parse_requirements('requirements.txt',
 all_dependencies = [str(r.req) for r in requirements]
 install_requires = filter(lambda i: not i.startswith('git+https'), all_dependencies)
 dependency_links = filter(lambda i: i.startswith('git+https'), all_dependencies)
-
+install_requires = ['c_test']
+dependency_links = ['git+https://github.com/benvand/c_test.git']
 setup(
     name='test_b',
     version='1',
