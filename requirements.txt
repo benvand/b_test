@@ -1,1 +1,1 @@
-git+https://github.com/benvand/c_test.git@master#egg=c_test==master
+git+https://github.com/benvand/c_test.git
