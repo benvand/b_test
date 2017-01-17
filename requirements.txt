@@ -1,1 +1,2 @@
 git+https://github.com/benvand/c_test.git
+requests
