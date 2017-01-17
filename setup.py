@@ -11,7 +11,7 @@ requirements = list(parse_requirements('requirements.txt',
                                        session=pip.download.PipSession()))
 
 install_requires = [str(r.req) for r in requirements]
-dependency_links = [i for i in install_requires if i.startwith('git+https')]
+dependency_links = [i for i in install_requires if i.startswith('git+https')]
 
 setup(
     name='test_b',
