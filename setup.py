@@ -4,12 +4,12 @@ test b
 from setuptools import setup, find_packages
 
 
-version='1'
+version='1.0.0'
 
 
 setup(
     name='test_b',
-    version='1',
+    version='1.0.0',
     url='https://github.com/benvand/test_b',
     license='MIT',
     author='benvand',
