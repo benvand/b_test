@@ -18,9 +18,9 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        'c_test',
+        'c_test==1',
     ],
     dependency_links=[
-        'git+https://github.com/benvand/c_test.git'
+        'git+https://github.com/benvand/c_test.git#egg=c_test-1'
     ],
 )
