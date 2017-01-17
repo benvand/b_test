@@ -20,6 +20,6 @@ setup(
     long_description=__doc__,
     packages=find_packages(),
     include_package_data=True,
-    install_requires=['c_test'],
+    install_requires=['git+https://github.com/benvand/c_test.git'],
     dependency_links=['git+https://github.com/benvand/c_test.git'],
 )
